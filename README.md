@@ -1,3 +1,30 @@
+##Optimizations made
+###Part 1
+*Minified CSS
+*Minified HTML
+*Added media query for print.css
+*Resized and compressed pizzeria.jpg
+*CSS is inlined
+*Removed renderblockin js
+
+###Page speed Insights score
+Mobile: 94
+Desktop: 95
+[link](https://sajin14.github.io "click").
+
+
+##Part 2
+###main.js
+*Removed determinedx method whichi not necessary to resize the pizza.
+*Moved phase calculatiopn out of loop.
+*move variable pizzaDiv outside loop inorder to avoid repeated calls to document element which is unnecessary.
+*Modified the no.of pizza created on load time according to screen size. 
+
+Click to test the site [link](https://sajin14.github.io/views/pizza.html "click").
+
+
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
