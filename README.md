@@ -8,19 +8,20 @@
 *Removed renderblockin js
 
 ###Page speed Insights score
-Mobile: 94
-Desktop: 95
-[link](https://sajin14.github.io "click").
+*Mobile: 94
+*Desktop: 95
+
+Click to view[Portfolio site](https://sajin14.github.io "Portfolio site").
 
 
 ##Part 2
 ###main.js
-*Removed determinedx method whichi not necessary to resize the pizza.
+*Removed determinedx method which is not necessary to resize the pizza.
 *Moved phase calculatiopn out of loop.
 *move variable pizzaDiv outside loop inorder to avoid repeated calls to document element which is unnecessary.
 *Modified the no.of pizza created on load time according to screen size. 
 
-Click to test the site [link](https://sajin14.github.io/views/pizza.html "click").
+Click to view [Pizza Site](https://sajin14.github.io/views/pizza.html "Pizza Site").
 
 
 
