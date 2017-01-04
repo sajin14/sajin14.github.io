@@ -1,25 +1,25 @@
 ##Optimizations made
 ###Part 1
-*Minified CSS
-*Minified HTML
-*Added media query for print.css
-*Resized and compressed pizzeria.jpg
-*CSS is inlined
-*Removed renderblockin js
+* Minified CSS
+* Minified HTML
+* Added media query for print.css
+* Resized and compressed pizzeria.jpg
+* CSS is inlined
+* Removed renderblockin js
 
 ###Page speed Insights score
-*Mobile: 94
-*Desktop: 95
+* Mobile: 94
+* Desktop: 95
 
-Click to view[Portfolio site](https://sajin14.github.io "Portfolio site").
+Click to view [Portfolio site](https://sajin14.github.io "Portfolio site").
 
 
 ##Part 2
 ###main.js
-*Removed determinedx method which is not necessary to resize the pizza.
-*Moved phase calculatiopn out of loop.
-*move variable pizzaDiv outside loop inorder to avoid repeated calls to document element which is unnecessary.
-*Modified the no.of pizza created on load time according to screen size. 
+* Removed determinedx method which is not necessary to resize the pizza.
+* Moved phase calculatiopn out of loop.
+* move variable pizzaDiv outside loop inorder to avoid repeated calls to document element which is unnecessary.
+* Modified the no.of pizza created on load time according to screen size. 
 
 Click to view [Pizza Site](https://sajin14.github.io/views/pizza.html "Pizza Site").
 

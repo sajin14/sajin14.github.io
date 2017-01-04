@@ -441,6 +441,7 @@ var resizePizzas = function(size) {
 
     changeSliderLabel(size);
 
+    //Removed determinedx method
     // Iterates through pizza elements on the page and changes their widths
     function changePizzaSizes(size) {
         var newwidth;
@@ -457,7 +458,7 @@ var resizePizzas = function(size) {
             default:
                 console.log("bug in sizeSwitcher");
         }
-
+        //use below code outside for loop to avoid FSL
         var pizza = document.querySelectorAll(".randomPizzaContainer");
         for (var i = 0; i < pizza.length; i++) {
             pizza[i].style.width = newwidth + "%";
@@ -509,7 +510,7 @@ function logAverageFrame(times) { // times is the array of User Timing measureme
 function updatePositions() {
     frame++;
     window.performance.mark("mark_start_frame");
-
+//Take phase calculation out of loop
     var items = document.querySelectorAll('.mover');
     var phase = document.body.scrollTop / 1250;
     for (var i = 0; i < items.length; i++) {
@@ -535,7 +536,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
     var cols = 8;
     var s = 256;
-    //Create no.of pizzas according to screen size
+//Create no.of pizzas according to screen size
     var rows = Math.round(window.screen.height / s);
     var count = rows * cols;
     for (var i = 0; i < count; i++) {
