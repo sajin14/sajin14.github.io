@@ -16,7 +16,7 @@ Click to view [Portfolio site](https://sajin14.github.io "Portfolio site").
 
 ##Part 2
 ###main.js
-* Removed determinedx method which is not necessary to resize the pizza.
+* Removed determinedx method which is not necessary to resize the pizza which makes the resize function under 1ms.
 * Moved phase calculatiopn out of loop.
 * move variable pizzaDiv outside loop inorder to avoid repeated calls to document element which is unnecessary.
 * Modified the no.of pizza created on load time according to screen size. 
