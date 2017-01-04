@@ -421,38 +421,26 @@ var resizePizzas = function(size) {
 
   changeSliderLabel(size);
 
-   // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
-  function determineDx (elem, size) {
-    var oldWidth = elem.offsetWidth;
-    var windowWidth = document.querySelector("#randomPizzas").offsetWidth;
-    var oldSize = oldWidth / windowWidth;
-
-    // Changes the slider value to a percent width
-    function sizeSwitcher (size) {
-      switch(size) {
+  // Iterates through pizza elements on the page and changes their widths
+  function changePizzaSizes(size) {
+    var newwidth;
+    switch(size) {
         case "1":
-          return 0.25;
+          newwidth = 25;
+          break;
         case "2":
-          return 0.3333;
+          newwidth = 33.3;
+          break;
         case "3":
-          return 0.5;
+          newwidth = 50;
+          break;
         default:
           console.log("bug in sizeSwitcher");
       }
-    }
 
-    var newSize = sizeSwitcher(size);
-    var dx = (newSize - oldSize) * windowWidth;
-
-    return dx;
-  }
-
-  // Iterates through pizza elements on the page and changes their widths
-  function changePizzaSizes(size) {
-    for (var i = 0; i < document.querySelectorAll(".randomPizzaContainer").length; i++) {
-      var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
-      var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
-      document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
+    var pizza = document.querySelectorAll(".randomPizzaContainer");
+    for (var i = 0; i < pizza.length; i++) {
+      pizza[i].style.width = newwidth + "%";
     }
   }
 
@@ -502,9 +490,11 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.querySelectorAll('.mover');
+   var phase = document.body.scrollTop / 1250; 
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
-    items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
+    var pos = Math.sin(phase + (i % 5))*100;
+    items[i].style.left = items[i].basicLeft + 100 * pos + 'px';
+
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
