@@ -1,9 +1,30 @@
-body{
-
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#panel {
+    width: 20%;
+    border-color: #ef7d13;
+    border-width: 1px;
+    border-style: solid;
+    height: 100%;
+    background-color: #fcb77b;
+}
+body {
+    display: flex;
+}
+#map {
+    height: 100%;
+    width: 80%;
+}
+.container {
+    width: 100px;
+}
+.info {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
 }
 
-#panel{
-	width: 30%;
-	border-color: #ef7d13;
-	height: 100%; 
-}

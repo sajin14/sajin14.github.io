@@ -1,0 +1,1 @@
+var menu = ko.observableArray(["Colleges","Tourist Places","Pubs","Court","Government Offices"]);
