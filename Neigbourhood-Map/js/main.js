@@ -158,7 +158,7 @@
        var city = 'New Delhi';
        var name = location.name;
 
-       var wikiurl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + name + '&format=json&callback=wikiCallback';
+       var wikiurl = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + name + '&format=json&callback=wikiCallback';
        var wikiRequestTimeout = setTimeout(function() {
            article = "Failed to Load wikipedia articles";
        }, 8000);
