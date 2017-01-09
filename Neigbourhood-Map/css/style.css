@@ -11,6 +11,7 @@ body {
     border-style: solid;
     height: 100%;
     background-color: #fcb77b;
+    overflow: auto;
 }
 body {
     display: flex;
@@ -35,6 +36,9 @@ body {
 }
 
 .results{
-	height:100px;
+	height: 200px;
 }
+
+
+
 
