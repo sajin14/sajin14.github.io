@@ -152,7 +152,7 @@ var malls = [{
         }},
         {name: "Ambience Mall",
         position: {
-            lat: 28.5412228,,
+            lat: 28.5412228,
             lng: 77.0848975
         }}
 
@@ -160,64 +160,32 @@ var malls = [{
 ];
 
 var tourist= [{
-    name: "St. Columba's School",
+    name: "Qutub Minar",
         position: {
-            lat: 28.6295066,
-            lng: 77.1359137
+            lat: 28.5244101,
+            lng: 77.1154156
         }},
-        {name: "The British School",
+        {name: "India Gate",
         position: {
-            lat: 28.5977248,
-            lng: 77.1104567
+            lat: 28.612894,
+            lng: 77.1594694
         }},
         {name: "Modern School",
         position: {
-            lat: 28.6285017,
-            lng: 77.1595381
+            lat: 28.6561412,
+            lng: 77.17098
         }},
-        {name: "American Embassy School",
+        {name: "Safdarjung Tomb",
         position: {
-            lat: 28.598598,
-            lng: 77.1132157
+            lat: 28.5892831,
+            lng: 77.1405279
         }},
-        {name: "Delhi Public School R.K.Puram",
+        {name: "National Zoological Park",
         position: {
-            lat: 28.5730363,
-            lng: 77.1057882
+            lat: 28.601959,
+            lng: 77.1777616
         }}
 
 
 ];
-
-var pubs= [{
-    name: "St. Columba's School",
-        position: {
-            lat: 28.6295066,
-            lng: 77.1359137
-        }},
-        {name: "The British School",
-        position: {
-            lat: 28.5977248,
-            lng: 77.1104567
-        }},
-        {name: "Modern School",
-        position: {
-            lat: 28.6285017,
-            lng: 77.1595381
-        }},
-        {name: "American Embassy School",
-        position: {
-            lat: 28.598598,
-            lng: 77.1132157
-        }},
-        {name: "Delhi Public School R.K.Puram",
-        position: {
-            lat: 28.5730363,
-            lng: 77.1057882
-        }}
-
-
-];
-
-
 
