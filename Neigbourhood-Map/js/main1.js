@@ -2,20 +2,21 @@
     // we used, 40.7413549, -73.99802439999996 or your own!
     var map;
     var markers = [];
-    var view={};
+var view={};
     view.initMap = function() {
         map = new google.maps.Map(document.getElementById('map'), {
             center: {
                 lat: 28.5272181,
                 lng: 77.0688976
             },
-            zoom: 8,
+            zoom: 11,
             mapTypeControl: false
 
         });}
 
         view.initialize = function(locations) {
             var largeInfoWindow = new google.maps.InfoWindow();
+
             console.log("Entered");
             for (var i = 0; i < 5; i++) {
                 var position = ko.observable(locations[i].position);
