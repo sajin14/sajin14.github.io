@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #panel {
     width: 20%;
     border-color: #ef7d13;
@@ -13,35 +14,43 @@ body {
     background-color: #fcb77b;
     overflow: auto;
 }
+
 body {
     display: flex;
 }
+
 #map {
     height: 100%;
     width: 80%;
 }
+
 .container {
     width: 100px;
 }
+
 .info {
     font-weight: bold;
     font-size: 20px;
     color: green;
 }
 
-.dropdown{
+.dropdown {
 	margin-top: 30px;
 	height: 30px;
 	width: 100%;
 }
 
-.results{
+.results {
 	height: 200px;
 }
 
-.description{
+.description {
     max-width: 100%;
     overflow: auto;
     max-height: 300px;
 }
 
+.error {
+    height: 300px;
+    width:100%;
+}
