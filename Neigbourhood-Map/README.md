@@ -42,4 +42,4 @@ The java script files are seperated into three- view.js,viewModel.js and model.j
 *Data binding is used for DOM manipulation
 
 ##Error Handling
-**Time out functions are used in Wikipedia API's function inorder to handle error
+* Time out functions are used in Wikipedia API's function inorder to handle error
