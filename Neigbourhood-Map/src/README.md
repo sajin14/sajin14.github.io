@@ -4,10 +4,7 @@ This website gives location details about important places in NewDelhi. This app
 Check the Site [Neighbourhood Map](https://sajin14.github.io/Neigbourhood-Map/)
 
 ##How to open
-* src directory contains source code for future reviews.
-* dist directory contains minified versions of files 
-* Click on index.html file inside any of the dist/src to open this website
-
+Click on index.html file inside local directory to open this website
 
 ##Features
 * Locations can be filtered out according to type given in the dropdown menu.
@@ -27,7 +24,7 @@ Check the Site [Neighbourhood Map](https://sajin14.github.io/Neigbourhood-Map/)
 *This is used to fetch articles about locations.
 *Articles are appended to info window of marker
 
-##MVVM Architecture
+##MVVVM Architecture
 The java script files are seperated into three- view.js,viewModel.js and model.js
 ###viewModel.js
 * It is the engine of the app.
