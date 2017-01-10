@@ -21,7 +21,7 @@
    view.initialize = function(locations) {
        //Initialize infowindow       
        largeInfoWindow = new google.maps.InfoWindow({
-           maxWidth: 300
+           maxWidth: 250
        });
        var pinColor;
        var pinImage;

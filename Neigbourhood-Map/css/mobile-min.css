@@ -1,0 +1,19 @@
+@media only screen and (max-width:420px)
+{
+	#panel{
+          height: 170px;
+          width: 100%;		
+	}
+
+	#map{
+		width:100%;
+	}
+
+	body{
+		display: block;
+	}
+
+	.dropdown{
+		margin-top: auto;
+	}
+} 
